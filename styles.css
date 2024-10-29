@@ -11,11 +11,12 @@ html {
 .dark-blue {
     background-color: #1F2937;
     padding: 15px;
+    color: #E5E7EB;
 }
 
 .white {
     background-color: #F9FAF8;
-    padding: 64px 0 80px 0;
+    padding: 100px 0 80px 0;
 }
 
 .center {
@@ -107,13 +108,12 @@ h2 {
 }
 
 .hero {
-    padding: 64px 0;
+    padding: 100px 0;
     gap: 30px;
 }
 
 .logo {
     font-size: 24px;
-    color: #F9FAF8;
     font-weight: 800;
 }
 
@@ -131,7 +131,6 @@ h2 {
 h1 {
     font-size: 48px;
     font-weight: 900;
-    color: #F9FaF8;
 }
 
 .btn {
@@ -158,4 +157,9 @@ h1 {
     height: 300px;
     width: 800px;
     object-fit: cover;
+}
+
+.footer {
+    text-align: center;
+    padding: 40px 0;
 }
