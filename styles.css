@@ -13,6 +13,35 @@ html {
     padding: 15px;
 }
 
+.white {
+    background-color: #F9FAF8;
+    padding: 64px;
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 80px;
+}
+
+.info-card img {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    width: 100%;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 35px;
+}
+
 .header, .hero {
     display: flex;
     align-items: center;
